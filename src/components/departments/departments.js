@@ -22,6 +22,7 @@ function departments() {
               Departments
             </h1>
           </Col>
+          <d />
           <Col
           style={{
             justifyContent: "center",
@@ -33,6 +34,64 @@ function departments() {
               <Link to="/departments/infotech" > IT | Information Technology</Link>
             </h2>
           </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/external" > ER | External Relations</Link>
+            </h2>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/human" > HR | Human Resources</Link>
+            </h2>
+          </Col>
+          <d />
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/teaching" > Teaching </Link>
+            </h2>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/echo" > Echo Podcast </Link>
+            </h2>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/comm" > Communication </Link>
+            </h2>
+          </Col>
+          <d />
+          <d />
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}

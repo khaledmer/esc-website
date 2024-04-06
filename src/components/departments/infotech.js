@@ -18,7 +18,7 @@ function infotech() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              External Relations
+              Information Technology
             </h1>
           </Col>
           <Col

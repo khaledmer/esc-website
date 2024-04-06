@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import laptopImg from "../../images/usthb-logo.png";
 
-function human() {
+function infotech() {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -18,7 +18,7 @@ function human() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Human Resources
+              Teaching
             </h1>
           </Col>
           <Col
@@ -34,4 +34,4 @@ function human() {
   );
 }
 
-export default human;
+export default iinfotech;
