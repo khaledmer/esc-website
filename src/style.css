@@ -57,12 +57,12 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #CF212B;
+    background: #ce464d;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #d1464d;
+    background: #CF212B;
     border-radius: 12px;
   }
   
