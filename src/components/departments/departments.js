@@ -143,7 +143,7 @@ function departments() {
           }}
           >
             <h2>
-              <Link to="/departments/design" >Design </Link>
+              <Link to="departments//design" >Design </Link>
             </h2>
           </Col>
           <Col
