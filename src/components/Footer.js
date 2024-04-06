@@ -29,22 +29,22 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/About'>Leaders</Link>
+            <Link to='/about'>Leaders</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <p>
-                englishspeakers@gmail.com
-                phone number
+                email
+                phone
             </p>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Location</h2>
-            <h3>
+            <p>
                 Startups hall, USTHB, Algiers - Algeria
-            </h3>
+            </p>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
