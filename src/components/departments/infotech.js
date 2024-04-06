@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import laptopImg from "../../images/usthb-logo.png";
 
-function external() {
+function infotech() {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -34,4 +34,4 @@ function external() {
   );
 }
 
-export default external;
+export default iinfotech;

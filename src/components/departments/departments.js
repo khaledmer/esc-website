@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import laptopImg from "../../images/usthb-logo.png";
+import {Link} from "react-router-dom";
 
 function departments() {
   return (
@@ -20,6 +21,17 @@ function departments() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Departments
             </h1>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/infotech" > IT | Information Technology</Link>
+            </h2>
           </Col>
           <Col
             md={5}
