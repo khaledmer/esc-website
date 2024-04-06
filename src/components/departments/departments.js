@@ -31,7 +31,7 @@ function departments() {
           }}
           >
             <h2>
-              <Link to="/departments/infotech" > IT | Information Technology</Link>
+              <Link to="/departments/infotech" > Information Technology</Link>
             </h2>
           </Col>
           <Col
@@ -42,7 +42,7 @@ function departments() {
           }}
           >
             <h2>
-              <Link to="/departments/external" > ER | External Relations</Link>
+              <Link to="/departments/external" > External Relations</Link>
             </h2>
           </Col>
           <Col
@@ -53,7 +53,7 @@ function departments() {
           }}
           >
             <h2>
-              <Link to="/departments/human" > HR | Human Resources</Link>
+              <Link to="/departments/human" > Human Resources</Link>
             </h2>
           </Col>
           <d />
@@ -88,6 +88,84 @@ function departments() {
           >
             <h2>
               <Link to="/departments/comm" > Communication </Link>
+            </h2>
+          </Col>
+          <d />
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/multi" > Multimedia </Link>
+            </h2>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/marketing"> Marketing </Link>
+            </h2>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/sp" > Strategic Planning </Link>
+            </h2>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/log" > Logistics Management </Link>
+            </h2>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/design" >Design </Link>
+            </h2>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/mag" > Magazine </Link>
+            </h2>
+          </Col>
+          <Col
+          style={{
+            justifyContent: "center",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+          }}
+          >
+            <h2>
+              <Link to="/departments/dg" > Discussion Group </Link>
             </h2>
           </Col>
           <d />
