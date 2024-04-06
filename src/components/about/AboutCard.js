@@ -6,9 +6,9 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
+          <h1> About Us</h1>
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, we are <span className="purple">English Speakers Club </span>
-            from <span className="purple"> USTHB, Algiers</span>
+            <span className="purple">English Speakers Club </span> as a student club that belongs to <span className="purple"> USTHB, Algiers</span> </p>
             <br />
             we are a student club
             <br />
