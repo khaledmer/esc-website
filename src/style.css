@@ -62,13 +62,13 @@ html {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #CF212B;
+    background: #d1464d;
     border-radius: 12px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #CF212B;
+    background: #2B3077;
     border-radius: 12px;
   }
   
