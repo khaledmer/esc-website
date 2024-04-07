@@ -1,10 +1,15 @@
 import React from "react";
+import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Nav from "react-bootstrap/Nav";
 import Particle from "../Particle";
 import laptopImg from "../../images/usthb-logo.png";
 import {Link} from "react-router-dom";
 
-function departments() {
+function Departments() {
+  const [expand, updateExpanded] = useState(false);
+  const [navColour, updateNavbar] = useState(false);
+
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -23,152 +28,64 @@ function departments() {
             </h1>
           </Col>
           <d />
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/infotech" > Information Technology</Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/external" > External Relations</Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/human" > Human Resources</Link>
-            </h2>
-          </Col>
-          <d />
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/teaching" > Teaching </Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/echo" > Echo Podcast </Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/comm" > Communication </Link>
-            </h2>
-          </Col>
-          <d />
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/multi" > Multimedia </Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/marketing"> Marketing </Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/sp" > Strategic Planning </Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/log" > Logistics Management </Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="departments//design" >Design </Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/mag" > Magazine </Link>
-            </h2>
-          </Col>
-          <Col
-          style={{
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-          }}
-          >
-            <h2>
-              <Link to="/departments/dg" > Discussion Group </Link>
-            </h2>
-          </Col>
-          <d />
+          <Nav className="ms-auto" defaultActiveKey="#home">
+            <Nav.Item>
+              <Nav.Link as={Link} to="/departments/human" onClick={() => updateExpanded(false)}>
+                 <h2> Human Resources </h2>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/departments/teaching" onClick={() => updateExpanded(false)}>
+                 <h2>Teaching</h2>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/departments/echo" onClick={() => updateExpanded(false)}>
+                 <h2>Echo Podcast</h2>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/departments/comm" onClick={() => updateExpanded(false)}>
+                 <h2>Communication</h2>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/departments/multi" onClick={() => updateExpanded(false)}>
+                 <h2>Multimedia</h2>
+              </Nav.Link>
+            </Nav.Item>
+              <Nav.Item>
+              <Nav.Link as={Link} to="/departments/marketing" onClick={() => updateExpanded(false)}>
+                 <h2>Marketing</h2>
+              </Nav.Link>
+           </Nav.Item>
+              <Nav.Item>
+              <Nav.Link as={Link} to="/departments/sp" onClick={() => updateExpanded(false)}>
+                 <h2>Strategic Planning</h2>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/departments/log" onClick={() => updateExpanded(false)}>
+                 <h2>Logistics Managment</h2>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/departments/design" onClick={() => updateExpanded(false)}>
+                 <h2>Design</h2>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/departments/mag" onClick={() => updateExpanded(false)}>
+                <h2>Magazine</h2>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/departments/dg" onClick={() => updateExpanded(false)}>
+                 <h2>Discussion Group</h2>
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+          
           <d />
           <Col
             md={5}
@@ -183,4 +100,4 @@ function departments() {
   );
 }
 
-export default departments;
+export default Departments;

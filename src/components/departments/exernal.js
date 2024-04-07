@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import laptopImg from "../../images/usthb-logo.png";
+import laptopImg from "../../images/events_esc.jpg";
 
 function external() {
   return (
@@ -20,6 +20,21 @@ function external() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               External Relations
             </h1>
+          </Col>
+          <Col>
+           <p>Responsible for external relations with other clubs, companies and sponsorships</p>
+          </Col>
+          <Col>
+           <p>Department Lead: Souad Kerchouche</p>
+          </Col>
+          <d />
+          <Col>
+           <p>Department Tasks: 
+            <li>Dealing with sponsorships</li>
+            <li>Managing relations with other clubs</li>
+            <li>Communicating with brands and companies</li>
+            <li>Bringing workshops</li>
+           </p>
           </Col>
           <Col
             md={5}

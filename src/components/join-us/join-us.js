@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import laptopImg from "../../images/usthb-logo.png";
 
-function infotech() {
+function events() {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -18,23 +18,8 @@ function infotech() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Information Technology
+              Join Us form
             </h1>
-          </Col>
-          <Col>
-           <p>Responsible for Technology and networking</p>
-          </Col>
-          <Col>
-           <p>Department Lead: Mouna</p>
-          </Col>
-          <d />
-          <Col>
-           <p>Department Tasks: 
-            <li>Creating & maintaining websites and apps</li>
-            <li>Moding discord</li>
-            <li>Fixing cybersecurity issues</li>
-            <li>guarding ESC's online presence</li>
-           </p>
           </Col>
           <Col
             md={5}
@@ -49,4 +34,4 @@ function infotech() {
   );
 }
 
-export default infotech;
+export default events;

@@ -8,27 +8,24 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              lets add things abt esc here </h1>
+              Take a look at our Activities</h1>
             <p className="home-about-body">
-              we fell in love with english.... and idk what I am saying coz I havn't slept yet
-              <br />
-              <br /> I wanna Take a nap !!!!!
-              <i>
-                <b className="purple"> IT DEP </b>
-              </i>
+              add cards to showcase activities like shown in the design prototype
               <br />
               <br />
-              our field of Interest is building new buildings
+              add a centered button here that's linked to the activities page
             </p>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>FIND US ON</h1>
             <p>
-              Feel free to connect with me, or don't I am not your parents
+              Feel free to contact us on:
+              <br />
+              add buttons to socials
             </p>
           </Col>
         </Row>

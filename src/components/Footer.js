@@ -3,6 +3,7 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
+
 function Footer() {
   return (
     <div className='footer-container'>
@@ -59,7 +60,6 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              English Speakers Club USTHB
               <i class='fab fa-typo3' />
             </Link>
           </div>
