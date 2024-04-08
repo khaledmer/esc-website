@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import laptopImg from "../../images/usthb-logo.png";
 
-function DG() {
+function dg() {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -34,4 +34,4 @@ function DG() {
   );
 }
 
-export default DG;
+export default dg;
